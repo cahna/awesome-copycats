@@ -9,7 +9,7 @@
 theme                               = {}
 
 theme.confdir                       = os.getenv("HOME") .. "/.config/awesome/themes/multicolor"
-theme.wallpaper                     = theme.confdir .. "/wall.png"
+theme.wallpaper                     = theme.confdir .. "/wall.jpg"
 
 theme.font                          = "Terminus 8"
 --theme.taglist_font                =
@@ -81,5 +81,12 @@ theme.layout_fullscreen             = theme.confdir .. "/icons/fullscreen.png"
 theme.layout_magnifier              = theme.confdir .. "/icons/magnifier.png"
 theme.layout_floating               = theme.confdir .. "/icons/floating.png"
 
+-- Set custom layout icons
+theme.layout_centerwork  = theme.confdir .. "/icons/centerwork.png"
+theme.layout_uselesstile = theme.confdir .. "/icons/tile.png"
+theme.layout_uselessfair = theme.confdir .. "/icons/fairv.png"
+
+-- Useless gap width
+theme.useless_gap_width = 10
 
 return theme
